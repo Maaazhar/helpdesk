@@ -10,7 +10,6 @@ const Tickets = () => {
           <p><small>Currently open tickets.</small></p>
         </div>
       </nav>
-
       <TicketList/>
     </main>
   )
