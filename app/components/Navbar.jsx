@@ -9,9 +9,9 @@ const Navbar = () => {
       <Image
       src={Logo}
       alt="logo"
-      width={70}
+      width={50}
       quality={100}
-      placeholder='blur'
+      // placeholder='blur'
       />
       <h1>helpdesk</h1>
       <Link href="/">dashboard</Link>
