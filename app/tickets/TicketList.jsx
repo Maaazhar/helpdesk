@@ -26,7 +26,7 @@ export default async function TicketList() {
             </div>
           </div>
         </Link>
-      ))}
+      )).reverse()}
       {tickets.length === 0 && (
         <p className="text-center">There are no open tickets...</p>
       )}
